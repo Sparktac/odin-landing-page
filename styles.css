@@ -12,15 +12,37 @@ header {
     margin: -8px;
 }
 
+#header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
 ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
-a, a:hover, a:active, a:visited { 
+
+li,
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a, a:active, a:visited { 
     color: white;    
     text-decoration: none;
     padding: 10px;
+}
+
+a:hover {
+    color: black;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
 }
 
 .logo-links {
@@ -29,6 +51,14 @@ a, a:hover, a:active, a:visited {
     margin-bottom: 70px;
 }
 
+.headerlogo {
+    align-self: flex-start;
+}
+
 .profilepic {
     border-radius: 25px;
+}
+
+.header-pic {
+    border-radius: 8px;
 }

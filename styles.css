@@ -45,7 +45,7 @@ button {
     color: white;
     border-radius: 8px;
     border: none;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 .logo-links {
@@ -70,14 +70,23 @@ button {
 
 .container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-flow: column wrap;
     align-items: flex-start;
-    border: 2px solid red;
+    width: 500px;
+}
+
+.picture {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .header-pic {
-    display: flex;
-    align-self: flex-end;
     border-radius: 8px;
-    border: 3px dotted red;
 }

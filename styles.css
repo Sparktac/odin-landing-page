@@ -37,12 +37,15 @@ a, a:active, a:visited {
 }
 
 a:hover {
-    color: black;
+    color: rgb(157, 160, 160);
 }
 
 button {
     background-color: #3882f6;
     color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
 }
 
 .logo-links {
@@ -51,14 +54,30 @@ button {
     margin-bottom: 70px;
 }
 
-.headerlogo {
-    align-self: flex-start;
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 8px;
 }
 
 .profilepic {
     border-radius: 25px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid red;
+}
+
 .header-pic {
+    display: flex;
+    align-self: flex-end;
     border-radius: 8px;
+    border: 3px dotted red;
 }

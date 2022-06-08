@@ -6,7 +6,7 @@ html {
 
 header {
     background-color: #1F2937;
-    background-size: contain;
+    background-size: cover;
     color: white;
     padding: 10px 250px 50px;
     margin: -8px;

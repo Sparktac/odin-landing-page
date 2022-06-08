@@ -16,6 +16,7 @@ header {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 15px;
 }
 
 ul {
@@ -27,7 +28,7 @@ ul {
 li,
 p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #bfc1c4;
 }
 
 a, a:active, a:visited { 
@@ -74,6 +75,7 @@ button {
     align-items: center;
 }
 
+
 .header {
     display: flex;
     flex-flow: column wrap;
@@ -89,4 +91,54 @@ button {
 
 .header-pic {
     border-radius: 8px;
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 52px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 40px;
+    margin: 20px;
+}
+
+.container-two img {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
 }

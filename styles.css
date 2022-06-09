@@ -2,6 +2,7 @@ html {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -52,7 +53,7 @@ button {
 .logo-links {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 
 .logo {
@@ -145,6 +146,39 @@ button {
     display: flex;
     align-self: flex-end;
     font-size: 24px;
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    font-size: 18px;
+    margin: 90px;
+    border: 2px solid green;
+}
+
+.signuptext p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 15px;
+    color: #F9FAF8;
+}
+
+.bluebox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    width: 1000px;
+    border-radius: 8px;
+}
+
+.bluebox button {
+    color: white;
+    border-radius: 8px;
+    border: 2px solid #eee;
+    padding: 5px 20px;
 }
 
 

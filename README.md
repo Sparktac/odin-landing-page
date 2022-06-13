@@ -6,11 +6,14 @@ CSS combined in order to make a great looking, styled page.
 
 Skills demonstrated:
 
-- HTML boilerplate
-- ID + return links
-- Image sources w/ alt text + style
-- <code><em></code> and <code><u></code> usage
-- Ordered + unordered lists
-- Use of Git in CLI to add, commit, and add message before push to Github
+- HTML knowledge
+- CSS knowledge including group selectors, chaining selectors, 
+- ID + return links 
+- Favicon usage
+- Ordered & unordered lists
+- Anchor styles (active, visited, hover)
+- Image sources w/ alt text + custom style (absolute vs relative)
+- Use of Git in CLI to add, commit, and include message before pushing to Github
 - ID, Class, Type CSS differentiations
-- External, internal, & inline CSS
+- External & internal CSS
+- Flexbox
